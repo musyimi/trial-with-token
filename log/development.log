@@ -1,0 +1,22 @@
+Started GET "/" for 127.0.0.1 at 2021-08-27 11:22:48 +0300
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/repaircentre/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/repaircentre/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 27.7ms | Allocations: 522)
+Completed 200 OK in 124ms (Views: 63.0ms | ActiveRecord: 0.0ms | Allocations: 4216)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-27 11:33:30 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 723)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-27 11:33:51 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 28)
+Completed 200 OK in 3ms (Views: 0.7ms | Allocations: 325)
+
+
