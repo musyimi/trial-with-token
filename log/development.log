@@ -20,3 +20,10 @@ Processing by ApplicationController#hello as HTML
 Completed 200 OK in 3ms (Views: 0.7ms | Allocations: 325)
 
 
+Started GET "/" for 127.0.0.1 at 2021-08-30 08:41:53 +0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 9.0ms | Allocations: 27)
+Completed 200 OK in 406ms (Views: 224.6ms | Allocations: 328)
+
+
